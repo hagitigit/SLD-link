@@ -1,0 +1,18 @@
+{
+	"name": "SLDLink",
+	"description": "Web Client UI Extension Tiles",
+	"version": "0.0.1",
+	"vendor": "SapPartner",
+	"multiple-version": "false",
+	"apiversion": "V1",
+	"user-tiles": [
+		{
+			"id": "my-user-tilenew",
+			"name": "SLDLinkNewTile",
+			"description": "sld remote",
+			"url": "https://10.58.108.176:40000/ControlCenter/?saml2TokenRef=8d2c1f8b-7a25-4ead-a6cc-c2bd5c826125",
+			"linkmethod": "NewWindow",
+			"image": "sap-icon://account"
+		}
+	]
+} 
